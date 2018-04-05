@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+}
+
+section {
+    display: block;
+    height:100%;
+    width:100%;
+    padding: 60px;
+    padding-left: 20px;
+    box-sizing:border-box;
+}
+
+
+.header {
+  background: #66B691;
+
+  h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13.9vw;
+  }
+
+  h4 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4vw;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+  .arrow {
+    padding-top: 45px;
+    text-align: center;
+    font-size:7em;
+    color:white;
+  }
+
+}
+
+.form {
+  background: #fff;
+  padding: 25px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  button {
+    background-color: #66B691;
+    border: none;
+  }
+
+  button:hover {
+    background-color: #519174;
+  }
+}
+
