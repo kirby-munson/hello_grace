@@ -9,8 +9,8 @@ section {
     display: block;
     height:100%;
     width:100%;
-    padding: 60px;
-    padding-left: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     box-sizing:border-box;
 }
 
@@ -21,13 +21,19 @@ section {
   h1 {
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 13.9vw;
+    text-align: center;
+    font-size: 25.9vw;
   }
 
   h4 {
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.4vw;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 4vw;
   }
 
   a{
@@ -37,9 +43,10 @@ section {
 
 
   .arrow {
-    padding-top: 45px;
+    padding-top: 155px;
     text-align: center;
-    font-size:7em;
+    margin: 0 auto;
+    font-size:5em;
     color:white;
   }
 
