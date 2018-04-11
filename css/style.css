@@ -70,7 +70,8 @@ section {
   padding-bottom: 45px; }
   .form button {
     background-color: #66B691;
-    border: none; }
+    border: none;
+    margin-bottom: 25px; }
   .form button:hover {
     background-color: #519174; }
 
