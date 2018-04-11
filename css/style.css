@@ -72,7 +72,12 @@ section {
   .form button {
     background-color: #66B691;
     border: none;
-    margin-bottom: 25px; }
+    padding: 15px;
+    font-size: 2vw;
+    border-radius: 0px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0px; }
   .form button:hover {
     background-color: #519174; }
 
