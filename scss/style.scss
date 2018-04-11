@@ -1,3 +1,19 @@
+
+
+/*colors*/
+$green : #66B691;
+$darkgreen: #519174;
+$white: #fff;
+
+/* Breakpoints - https://getbootstrap.com/docs/3.3/css/ */
+
+$screen-xs-max: 767px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+
+
 html, body {
     margin: 0;
     height:100%;
@@ -9,24 +25,37 @@ section {
     display: block;
     height:100%;
     width:100%;
-    padding-top: 60px;
+    padding-top: 75px;
     padding-bottom: 60px;
     box-sizing:border-box;
 }
 
 
+/* header */
+
 .header {
-  background: #66B691;
+  background: $green;
+
 
   h1 {
-    color: white;
+    color: $white;
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     text-align: center;
-    font-size: 25.9vw;
+    font-size: 22vw;
+    @media (min-width: $screen-sm-min) {
+      font-size: 14vw;
+    }
+    @media (min-width: $screen-md-min) {
+      font-size: 12vw;
+    }
+    @media (min-width: $screen-lg-min) {
+      font-size: 10vw;
+    }
   }
 
   h4 {
-    color: white;
+    color: $white;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     padding-top: 10px;
@@ -34,37 +63,55 @@ section {
     padding-left: 30px;
     padding-right: 30px;
     font-size: 4vw;
+    @media (min-width: $screen-sm-min) {
+      font-size: 3vw;
+    }
+    @media (min-width: $screen-md-min) {
+      font-size: 3.5vw;
+    }
+    @media (min-width: $screen-lg-min) {
+      font-size: 4.5vw;
+    }
   }
+
+
 
   a{
     text-decoration: none;
-    color: white;
+    color: $white;
   }
 
 
+  /* arrow */
+
   .arrow {
-    padding-top: 155px;
+    padding-top: 140px;
+    clear: both;
     text-align: center;
     margin: 0 auto;
     font-size:5em;
-    color:white;
+    color: $white;
   }
 
 }
 
+
+/* form */
+
 .form {
-  background: #fff;
+  background: $white;
   padding: 25px;
   padding-top: 45px;
   padding-bottom: 45px;
 
   button {
-    background-color: #66B691;
+    background-color: $green;
     border: none;
   }
 
   button:hover {
-    background-color: #519174;
+    background-color: $darkgreen;
   }
 }
+
 
